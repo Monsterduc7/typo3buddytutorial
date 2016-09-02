@@ -1,5 +1,5 @@
 <?php
-class FluidCache_Standalone_partial_footer_108b1f8945485dec5b10838f5e48684b4e3473b9 extends \TYPO3\CMS\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class FluidCache_Standalone_partial_header_top_18ff4e9806c6cfe1a29917864423d26003d9255f extends \TYPO3\CMS\Fluid\Core\Compiler\AbstractCompiledTemplate {
 
 public function getVariableContainer() {
 	// @todo
@@ -23,12 +23,12 @@ $currentVariableContainer = $renderingContext->getTemplateVariableContainer();
 
 $output0 = '';
 
-$output0 .= '<div id="footer">
-    <div id="footer_left">
+$output0 .= '<div id="header_top">
+    <div id="header_top_left">
         ';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
 $arguments1 = array();
-$arguments1['typoscriptObjectPath'] = 'lib.footer_left';
+$arguments1['typoscriptObjectPath'] = 'lib.header_top_left';
 $arguments1['data'] = NULL;
 $arguments1['currentValueKey'] = NULL;
 $arguments1['table'] = '';
@@ -42,12 +42,12 @@ $viewHelper3->setRenderChildrenClosure($renderChildrenClosure2);
 $output0 .= $viewHelper3->initializeArgumentsAndRender();
 
 $output0 .= '
-    </div><!-- footer_left -->
-    <div id="footer_right">
+    </div><!-- header_top_left -->
+    <div id="header_top_right">
         ';
 // Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
 $arguments4 = array();
-$arguments4['typoscriptObjectPath'] = 'lib.footer_right';
+$arguments4['typoscriptObjectPath'] = 'lib.header_top_right';
 $arguments4['data'] = NULL;
 $arguments4['currentValueKey'] = NULL;
 $arguments4['table'] = '';
@@ -61,7 +61,7 @@ $viewHelper6->setRenderChildrenClosure($renderChildrenClosure5);
 $output0 .= $viewHelper6->initializeArgumentsAndRender();
 
 $output0 .= '
-    </div><!-- footer_right -->
+    </div><!-- header_top_right -->
     <div class="clearer"></div>
 </div>';
 
@@ -71,4 +71,4 @@ return $output0;
 
 
 }
-#1472131741    2457      
+#1472811591    2489      

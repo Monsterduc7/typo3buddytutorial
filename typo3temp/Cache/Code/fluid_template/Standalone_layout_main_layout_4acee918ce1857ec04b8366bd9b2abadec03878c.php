@@ -1,5 +1,5 @@
 <?php
-class FluidCache_Standalone_layout_main_layout_5aeafb4ae2b9b26c2bd220b6a90bc15de4367ce4 extends \TYPO3\CMS\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class FluidCache_Standalone_layout_main_layout_4acee918ce1857ec04b8366bd9b2abadec03878c extends \TYPO3\CMS\Fluid\Core\Compiler\AbstractCompiledTemplate {
 
 public function getVariableContainer() {
 	// @todo
@@ -143,4 +143,4 @@ return $output0;
 
 
 }
-#1472131741    5403      
+#1472811591    5403      
